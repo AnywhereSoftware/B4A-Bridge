@@ -22,7 +22,7 @@ Module7=Utils
 NumberOfFiles=1
 NumberOfLibraries=9
 NumberOfModules=7
-Version=12.96
+Version=13
 @EndOfDesignText@
 #Region Module Attributes
 	#FullScreen: False
@@ -36,6 +36,7 @@ Version=12.96
 	#additionaljar: com.android.support:support-v4
 	#Extends: android.support.v7.app.AppCompatActivity
 	#MultiDex: true
+	#AdditionalRes: ../icon
 'Activity module
 Sub Process_Globals
 	Private server As ServerSocket 'ignore - Only used to show the device IP.
